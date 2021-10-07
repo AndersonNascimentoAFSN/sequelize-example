@@ -13,16 +13,16 @@ module.exports = {
     */
    await queryInterface.bulkInsert('Users',[
      {
-       fullName: 'John Doe',
+       full_name: 'John Doe',
        email: 'john@email.com',
-       createdAt: Sequelize.literal('CURRENT_TIMESTAMP'),
-       updatedAt: Sequelize.literal('CURRENT_TIMESTAMP'),
+       created_at: Sequelize.literal('CURRENT_TIMESTAMP'),
+       updated_at: Sequelize.literal('CURRENT_TIMESTAMP'),
      },
      {
-       fullName: 'Tom Doe',
+       full_name: 'Tom Doe',
        email: 'tom@email.com',
-       createdAt: Sequelize.literal('CURRENT_TIMESTAMP'),
-       updatedAt: Sequelize.literal('CURRENT_TIMESTAMP'),
+       created_at: Sequelize.literal('CURRENT_TIMESTAMP'),
+       updated_at: Sequelize.literal('CURRENT_TIMESTAMP'),
      },
    ]);
   },
